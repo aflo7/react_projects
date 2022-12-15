@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const async = require("async")
 
 mongoose.set('strictQuery', false)
-const devDatabase = 'mongodb+srv://florand:November123@cluster0.eo8nhct.mongodb.net/starbuzz_dev?retryWrites=true&w=majority'
+const devDatabase = devDB
 const mongoDB = devDatabase;
 mongoose.connect(mongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
 

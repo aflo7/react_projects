@@ -5,10 +5,11 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const cors = require('cors');
 const mongoose = require("mongoose");
+const devDB = process.env.MONGO_URI
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-const devDatabase = 'mongodb+srv://florand:November123@cluster0.eo8nhct.mongodb.net/starbuzz_dev?retryWrites=true&w=majority'
+const devDatabase = devDB
 var app = express();
 
 // view engine setup
