@@ -1,0 +1,132 @@
+.main-wrapper {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.left-sidebar {
+  width: 10%;
+  display: flex;
+  justify-content: right;
+  border-right: 1px solid white;
+}
+
+.left-sidebar-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* background-color: red; */
+  height: 100%;
+  width: 80%;
+}
+
+.btn-wrapper {
+  /* background-color: white; */
+  width: fit-content;
+  font-size: 16pt;
+}
+
+.btn-left {
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin: 15px;
+  /* width: fit-content; */
+  /* color: white; */
+}
+
+.btn-left-text {
+  padding-left: 8px;
+}
+.btn-left:hover {
+  background-color: rgb(84, 84, 84);
+}
+
+@media (max-width: 800px) {
+  .left-sidebar-inner {
+    display: inline;
+    width: 100%;
+  }
+
+  .btn-left-text {
+    display: none;
+  }
+  .btn-wrapper {
+    width: 100%;
+  }
+  .btn-left-icon {
+    width: 100%;
+    font-size: 22pt;
+  }
+
+  .btn-left {
+    margin-bottom: 10px;
+  margin: 0px;
+  padding: 10px;
+
+
+  }
+}
+
+.middle {
+  background-color: black;
+  width: 90%;
+  color: white;
+  overflow-y: auto;
+}
+
+.right-sidebar {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .left-sidebar {
+    width: 30%;
+  }
+  .right-sidebar {
+    display: inline;
+    width: 30%;
+  }
+
+  .middle {
+    width: 40%;
+  }
+}
+
+.top-middle {
+  display: flex;
+  flex-direction: row;
+}
+.tweet-input {
+  width: 80%;
+  padding: 10px;
+  border: none;
+}
+
+.send-tweet {
+  width: 20%;
+  border: none;
+  background-color: rgb(62, 123, 255);
+  cursor: pointer;
+}
+
+.tweet-wrapper {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.tweet-author {
+  font-weight: bold;
+}
+
+
+.login-wrapper {
+  margin: auto;
+  color: white;
+  width: fit-content;
+}

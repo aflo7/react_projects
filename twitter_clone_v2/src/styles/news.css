@@ -1,0 +1,30 @@
+.news-wrapper {
+  font-size: 10pt;
+  border: 1px solid white;
+  color: white;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.news-title {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.individual-news {
+  background-color: rgb(67, 67, 67);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.individual-news:hover {
+  background-color: rgb(93, 93, 93);
+}
+
+.individual-news-title {
+  padding-left: 10px;
+}

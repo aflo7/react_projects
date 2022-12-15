@@ -1,0 +1,42 @@
+.text-area-wrapper {
+  width: 400px;
+  margin: 0 auto;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.word-definition-wrapper  {
+  border: 1px solid black;
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.word-bank-wrapper {
+  border: 1px solid black;
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.text-area {
+  border: 1px solid black;
+  height: 300px;
+  padding: 5px;
+  word-wrap: break-word;
+  overflow-y:auto
+}
+
+span:hover {
+  background-color: yellow;
+}
+
+.word-box {
+  display: flex;
+  border: 1px solid red;
+  padding: 5px;
+}

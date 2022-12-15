@@ -1,0 +1,6 @@
+- split the frontend backend 
+- created backend API with Node
+
+- create menu page with Starbuzz coffee beverages
+- create add to cart functionality
+- create checkout functionality

@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea {
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  resize: none;
+  height: 100%;
+}
+
+::selection {
+  color: #fff;
+  background: #ae83ff;
+}

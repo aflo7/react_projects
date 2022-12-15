@@ -1,0 +1,43 @@
+.rightbar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: black;
+}
+
+.top-right {
+  height: 50%;
+  overflow-y: auto;
+  background-color: black;
+  border-bottom: 1px solid white;
+}
+.who-to-follow-wrapper {
+  font-size: 10pt;
+
+  border: 1px solid white;
+  /* padding: 10px; */
+  color: white;
+  margin: 15px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.who-to-follow-title {
+  padding-top: 10px;
+  padding-left: 10px;
+
+}
+.individual-who-to-follow {
+  background-color: rgb(67, 67, 67);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  cursor: pointer;
+}
+
+.individual-who-to-follow:hover {
+  background-color: rgb(93, 93, 93);
+}
