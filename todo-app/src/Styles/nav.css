@@ -1,0 +1,44 @@
+.nav-btn {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 10px;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+  /* margin: 10px; */
+  border-radius: 10px;
+  
+
+}
+
+.nav-btn:hover {
+  background-color: var(--gold);
+
+
+}
+
+.nav-inner-text {
+  padding-left: 4px;
+  font-size: 12pt;
+  width: 160px;
+  word-break: break-all;
+
+}
+
+.nav-icon {
+  /* font-size: 18pt; */
+}
+
+nav {
+  /* padding: 15px; */
+  /* background-color: black; */
+}
+
+.nav-wrapper {
+  /* height: 100vh; */
+  /* background-color: red; */
+  /* border-right: 2px solid white; */
+  background-color: var(--dark-orange);
+  padding: 20px;
+
+}

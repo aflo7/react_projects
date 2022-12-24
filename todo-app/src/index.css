@@ -1,0 +1,52 @@
+
+:root {
+  --navy: #264653;
+  --teal: #2A9D8F;
+  --gold: #E9C46A;
+  --orange: #F4A261;
+  --dark-orange: #E76F51;
+
+
+}
+* {
+  box-sizing: border-box;
+  font-size: 16pt;
+
+}
+body {
+  margin: 0;
+  font-family: 'proxima-nova', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: rgb(29, 56, 83); */
+  background-color: var(--orange);
+  color: black;
+  /* font-size: 18pt; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  /* border-radius: 10px; */
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}
+
+input {
+  /* border-radius: 10px; */
+
+  padding: 5px;
+}
+@media screen and (max-width: 700px) {
+  .bottom-wrapper {
+    flex-direction: column;
+  }
+.title-nav-icon {
+  display: block;
+}
+}
